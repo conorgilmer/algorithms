@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<project name="mytask" default="gcc" basedir=".">
+<target name="init">
+<property name="source" value="relax.c"/>
+<property name="build" location="build"/>
+</target>
+<target name="gcc" depends="init">
+<mkdir dir="${build}"/>
+<exec dir="." executable="gcc">
+<arg line="-o"/>
+<arg line="${build}/relax"/>
+<arg line="${source}"/>
+</exec>
+</target>
+</project>
