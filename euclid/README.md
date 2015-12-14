@@ -2,4 +2,5 @@
 
 - gcd.pl 
 - euclid.c (using 3 different methods)
+- Euclid.java (using 3 different methods)
 
