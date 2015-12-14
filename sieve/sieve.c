@@ -2,6 +2,10 @@
 /*        "The Sieve of Eratosthenes"                     */
 /*           Prime Number Finder                          */
 /*              by Conor Gilmer                           */
+/*                                                        */
+/*         Program: sieve.c                               */
+/*            Date: 31/12/1994                            */
+/*                                                        */
 /**********************************************************/
 
 #include <stdio.h>
@@ -34,6 +38,7 @@ int main(){
 				; /* a incremented to */
 				  /* skip to next prime */
 	} /* end of while one */
+	printf(" *** The End *** \n \n");
 
 } /* end of main */
 
