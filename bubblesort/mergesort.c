@@ -40,10 +40,11 @@ int main () {
     int i;
 
     printf("\n*** Merge Sort ***\n");
-
+    printf("\nUnsorted Array : ");
     for (i = 0; i < n; i++)
         printf("%d%s", a[i], i == n - 1 ? "\n" : " ");
     merge_sort(a, n);
+    printf("Sorted Array   : ");
     for (i = 0; i < n; i++)
         printf("%d%s", a[i], i == n - 1 ? "\n" : " ");
     
