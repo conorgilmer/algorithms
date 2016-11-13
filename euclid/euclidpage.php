@@ -42,15 +42,15 @@ return ($u);
     <form action="euclidpage.php" method="post">
         Please enter a number (x)  <input type="number" name="numOne"><br>
         Please enter a number (y) <input type="number" name="numTwo"><br>
-        <input type="submit">
+        <input value="Calculate GCD" type="submit">
     </form>
     <?php
     if(isset($_POST["numOne"])) { 
     	if(isset($_POST["numTwo"])) { 
         $x = $_POST["numOne"];
         $y = $_POST["numTwo"];
-        echo "You have chosen $x<br>";
-        echo "You have chosen $y<br>";
+        echo "You have entered $x for x <br>";
+        echo "You have entered $y for y<br>";
 echo "<br>The greatest common divisor of ".$x." and " . $y . " is " . gcd($x,$y);
 echo "<br>The greatest common divisor of ".$x." and " . $y . " is " . gcd_one($x,$y);
 echo "<br>The greatest common divisor of ".$x." and " . $y . " is " . gcd_two($x,$y);
