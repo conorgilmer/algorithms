@@ -6,6 +6,13 @@ After watching a BBC(Open University) programme on Algorithms, I dug out some of
 - Bubble Sort (Perl, Java)
 - Stable Marriage Problem
 - Finite Differnce Method
+- Data Structures
+
+## Data Structures
+- Stack
+- Lists
+- Queue 
+- Tree
 
 ##Compilers and Interpreters used
 - GCC
