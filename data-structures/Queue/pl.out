@@ -1,0 +1,12 @@
+Perl example of a "First In First Out" Queue
+Initial queue:
+  nixon ford carter regan bush clinton bush obama 
+Add item to queue:
+  johnson nixon ford carter regan bush clinton bush obama 
+Add item to queue:
+  kennedy johnson nixon ford carter regan bush clinton bush obama 
+Remove FIFO item: obama
+Final queue:
+  kennedy johnson nixon ford carter regan bush clinton bush 
+
+*** The End ***
