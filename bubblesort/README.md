@@ -1,7 +1,8 @@
 # Sorting Algorithms
 - Bubble Sort
-  - Perl Version
-  - Java Version
-  - Pascal Version
+  - Perl Version (bubble.pl)
+  - Java Version (BubbleSort.java)
+  - Pascal Version (Bubble.PAS)
 - Merge Sort
-  - C Version
+  - C Version (mergesort.c)
+  - Perl Version (mergesort.pl)
